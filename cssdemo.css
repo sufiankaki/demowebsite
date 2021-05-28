@@ -1,0 +1,23 @@
+
+#name {
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+color: cornflowerblue;
+}
+#role {
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+color: brown;
+}
+#degree {
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+color: darkmagenta;
+}
+h4 {
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+color: cornflowerblue;
+}
+
+.webpage {
+font-family: Georgia, 'Times New Roman', Times, serif;
+color: black;
+background-color: gainsboro;
+}
