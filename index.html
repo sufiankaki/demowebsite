@@ -1,0 +1,127 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width,initial-scale=1" />
+		<title>Portfolio — Your Name</title>
+		<link rel="stylesheet" href="styles.css">
+	</head>
+	<body>
+		<div class="container">
+			<header>
+				<div class="brand">
+					<div class="avatar">SKA</div>
+					<div>
+						<div style="font-weight:700">Sufian Kaki Aslam</div>
+						<div style="color:var(--muted);font-size:13px">Cloud Engineer • Open to opportunities</div>
+					</div>
+				</div>
+				<nav class="nav">
+					<a href="#about">About</a>
+					<a href="#education">Education</a>
+					<a href="#experience">Experience</a>
+					<a href="#skills">Skills</a>
+					<a href="#projects">Projects</a>
+					<a href="#contact" class="active">Contact</a>
+				</nav>
+			</header>
+
+			<div class="hero">
+				<div class="intro card">
+					<h1>Hi, I'm Sufian</h1>
+					<p>I'm a cloud engineer who builds delightful, accessible cloud applications. I focus on frontend engineering, UX and performant web apps.</p>
+					<div class="contact-links">
+						<a class="btn" href="#contact">Get in touch</a>
+						<a class="btn" href="#projects">View projects</a>
+					</div>
+				</div>
+
+				<aside class="sidebar">
+					<div class="card">
+						<div class="stat"><div>Location</div><div style="color:var(--muted)">Manchester, United Kingdom</div></div>
+						<div class="stat"><div>Available</div><div style="color:var(--muted)">Yes</div></div>
+						<div style="margin-top:8px;color:var(--muted);font-size:13px">Resume: <a style="color:var(--accent)" href="#">Download</a></div>
+					</div>
+				</aside>
+			</div>
+
+			<main>
+				<section id="about" class="card about">
+					<h2 class="section-title">About Me</h2>
+					<p>I build web applications with a strong emphasis on UI, accessibility, and performance. I enjoy mentoring teammates and turning complex problems into simple interfaces.</p>
+				</section>
+
+				<section id="education" class="card education">
+					<h2 class="section-title">Education</h2>
+					<div class="item">
+						<strong>B.Sc. Computer Science</strong> — University Name (2016 - 2020)
+						<div style="color:var(--muted);font-size:13px;margin-top:6px">Specialization in Human-Computer Interaction</div>
+					</div>
+				</section>
+
+				<section id="experience" class="card experience">
+					<h2 class="section-title">Experience</h2>
+					<div class="item">
+						<strong>Senior Frontend Engineer</strong> — Company A (2022 - Present)
+						<div style="color:var(--muted);font-size:13px;margin-top:6px">Leading frontend for the main product, improving load times by 40% and accessibility score to 95.</div>
+					</div>
+					<div class="item">
+						<strong>Frontend Engineer</strong> — Company B (2020 - 2022)
+						<div style="color:var(--muted);font-size:13px;margin-top:6px">Built reusable component library and shipped cross-team design system.</div>
+					</div>
+				</section>
+
+				<section id="skills" class="card skills">
+					<h2 class="section-title">Skills</h2>
+					<div class="skill-list">
+						<div class="skill">JavaScript</div>
+						<div class="skill">TypeScript</div>
+						<div class="skill">React</div>
+						<div class="skill">Next.js</div>
+						<div class="skill">HTML & CSS</div>
+						<div class="skill">Accessibility</div>
+						<div class="skill">Performance</div>
+						<div class="skill">Testing</div>
+					</div>
+				</section>
+
+				<section id="projects" class="card projects">
+					<h2 class="section-title">Projects</h2>
+					<div class="projects-grid">
+						<div class="project item">
+							<div class="title">Project One</div>
+							<div class="desc">A short description about the project, tech used: React, TypeScript, Node.</div>
+						</div>
+						<div class="project item">
+							<div class="title">Project Two</div>
+							<div class="desc">A short description about the project, tech used: Next.js, Prisma.</div>
+						</div>
+						<div class="project item">
+							<div class="title">Project Three</div>
+							<div class="desc">A short description about the project, tech used: Static site generation, performance optimizations.</div>
+						</div>
+					</div>
+				</section>
+
+				<section id="contact" class="card contact">
+					<h2 class="section-title">Contact Me</h2>
+					<form class="contact-form" id="contactForm">
+						<input id="name" placeholder="Your name" required />
+						<input id="email" type="email" placeholder="Your email" required />
+						<textarea id="message" rows="4" placeholder="Message" required></textarea>
+						<div style="display:flex;gap:8px;align-items:center">
+							<button class="btn" type="submit">Send message</button>
+							<div id="status" style="color:var(--muted);font-size:13px"></div>
+						</div>
+					</form>
+				</section>
+			</main>
+
+			<footer>
+				© <span id="year"></span> Your Name — Built with care.
+			</footer>
+		</div>
+
+		<script src="script.js"></script>
+	</body>
+</html>
